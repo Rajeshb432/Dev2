@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fidality demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="https://fnfindia.co.in/Images/favicon.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+
+  <!---header-->
+  <nav class="navbar navbar-expand-lg navbar-light py-4">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="#">Logo</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+        
+      </div>
+      
+      <div class="d-flex mx-2 align-items-center">
+        <i class="bi bi-search ms-3" role='button'></i>
+        <i class="bi bi-bell-fill ms-4" role='button'></i>
+
+        <div class="profile ms-4 me-2" role='button'>
+          <p>BR</p>
+        </div>
+
+
+
+
+
+
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      
+    </div>
+  </nav>
+
+  <!--slider section-->
+  <div class="container-fluid g-0 banner">
+    <div class="row g-0">
+      <div class="col-sm-12 text-center">
+        <p class="banner-text fs-4">Order summary: Order#1 Billed Amount#2500s</p>
+      </div>
+      <div class="col-sm-12 p-0">
+        <div id="container">
+          <div id="slider-container">
+            <span onclick="slideRight()" class="btn-nav"></span>
+            <div id="slider">
+              <div class="slide"><button type="button" class="btn btn-light">Order 1</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 2</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 3</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 4</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 5</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 6</button></div>
+              <div class="slide"><button type="button" class="btn btn-light">Order 7</button></div>
+            </div>
+            <span onclick="slideLeft()" class="btn-nav"></span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <!--content section-->
+  <div class="container-xl my-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-3">
+        <div class="nav flex-md-column nav-pills me-3  mb-3 justify-content-center custom-step">
+          <button class="nav-link active mb-3" id="v-pills-home-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-home" type="button" role="tab">Product</button>
+          <button class="nav-link mb-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+            type="button" role="tab">Review</button>
+          <button class="nav-link mb-3" id="v-pills-messages-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-messages" type="button" role="tab">Payment</button>
+          <button class="nav-link mb-3" id="v-pills-settings-tab" data-bs-toggle="pill"
+            data-bs-target="#v-pills-settings" type="button" role="tab">Summary</button>
+        </div>
+
+
+      </div>
+      <div class="col-sm-12 col-md-9">
+
+        <div class="d-flex align-items-start">
+          <div class="card p-2 p-md-4 w-100">
+            <div class="tab-content" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                aria-labelledby="v-pills-home-tab">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <img src="../img/product.jpg" class="w-100 "
+                      title="books" />
+                  </div>
+                  <div class="col-sm-9">
+
+                    <h4>33 Pcs Miniatures Dollhouse Books 1:12 Scale Mini Books Dollhouse Decoration Accessories for
+                      Dollhouse Library Study Room Bedroom DIY Craft Gifts for Girls Boys</h4>
+
+                    <p class="my-1">In stock</small>
+                    <p class="fs-6 mb-1">Gift options not available. <a href="#" class="ms-2 text-decoration-none">more
+                        view</a></p>
+                    <p class="fs-5 mb-1">Retrun window closed on 6-dec-2022</p>
+                    <p class="fs-4 mb-1">&#8377; 253.00</p>
+                    <div class="d-flex my-1 flex-wrap">
+                      <div class="w-25 ">
+                        <select class="form-select me-2">
+                          <option selected disabled value="">1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+
+                      <a href="#" class="ms-3 text-decoration-none">Delete</a>
+                      <a href="#" class="ms-3 text-decoration-none">Save to Later</a>
+                      <a href="#" class="ms-3 text-decoration-none">See more like this</a>
+                      <a href="#" class="ms-3 text-decoration-none">Share</a>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <img src="../img/product.jpg" class="w-100 "
+                      title="books" />
+                  </div>
+                  <div class="col-sm-9">
+
+                    <h4>33 Pcs Miniatures Dollhouse Books 1:12 Scale Mini Books Dollhouse Decoration Accessories for
+                      Dollhouse Library Study Room Bedroom DIY Craft Gifts for Girls Boys</h4>
+
+                    <p class="my-1">In stock</small>
+                    <p class="fs-6 mb-1">Gift options not available. <a href="#" class="ms-2 text-decoration-none">more
+                        view</a></p>
+                    <p class="fs-5 mb-1">Retrun window closed on 6-dec-2022</p>
+                    <p class="fs-4 mb-1">&#8377; 253.00</p>
+                    <div class="d-flex my-1 flex-wrap">
+                      <div class="w-25 ">
+                        <select class="form-select me-2">
+                          <option selected disabled value="">1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+
+                      <a href="#" class="ms-3 text-decoration-none">Delete</a>
+                      <a href="#" class="ms-3 text-decoration-none">Save to Later</a>
+                      <a href="#" class="ms-3 text-decoration-none">See more like this</a>
+                      <a href="#" class="ms-3 text-decoration-none">Share</a>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <hr>
+                <div>
+                  <button class="btn btn-primary" onclick="gotostep2()" type="button">Next</button>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <h4 class="mb-3">Review:</h4>
+                <p class="mb-1">Review the selected products and modify</p>
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                  <div class="ratings">
+                    <i class="bi bi-star-fill rating-color"></i>
+                    <i class="bi bi-star-fill rating-color"></i>
+                    <i class="bi bi-star-fill rating-color"></i>
+                    <i class="bi bi-star-fill rating-color"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Your Review:</label>
+                  <textarea class="form-control" id="exampleFormControlTextar1" rows="3"
+                    placeholder="Your review"></textarea>
+                </div>
+
+                <h3>Your Info:</h3>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Name</label>
+                  <input type="email" class="form-control" id="exampleFormControlInpu" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">City</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="City">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+                </div>
+                <button type="button" class="btn btn-primary mb-2">Submit</button>
+
+                <div class="d-flex justify-content-between my-3">
+                  <button type="button" class="btn btn-info" onclick="gotostep1()">Previous</button>
+                  <button type="button" class="btn btn-primary" onclick="gotostep3()">Next</button>
+                </div>
+
+
+
+
+
+
+              </div>
+
+
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>Payment form 1</h4>
+                    <div class="card p-3 mt-3">
+                      <div class="mb-4">
+                        <label for="validationCustomUsername" class="form-label">Full name (on the card)</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend"> <i
+                              class="bi bi-person-fill"></i></span>
+                          <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-4">
+                        <label for="validationCustomUsername" class="form-label">Card number</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend"><i
+                              class="bi bi-credit-card-fill"></i></span>
+                          <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <label for="exampleFormControlInput1" class="form-label">Expiration</label>
+                            <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="MM">
+                            <input type="email" class="form-control" id="exampleFormControl" placeholder="YY">
+                          </div>
+                          <div class="col-sm-3">
+                            <label for="exampleFormControlInput1" class="form-label">CVV <i
+                                class="bi bi-question-circle-fill  ms-2"></i></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput7" placeholder="">
+                          </div>
+                        </div>
+
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Payment form 2</h4>
+                    <div class="card p-3 mt-3">
+                      <div class="btn-group mb-3" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="btnradio1"> <i
+                            class="bi bi-credit-card-fill  me-2"></i>Credit Card</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio2"><i
+                            class="bi bi-paypal me-2"></i>Paypal</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio3"> <i class="bi bi-bank2 me-2"></i>Bank
+                          Transfer</label>
+                      </div>
+                      <div class="mb-4">
+                        <label for="validationCustomUsername" class="form-label">Full name (on the card)</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend"> <i
+                              class="bi bi-person-fill"></i></span>
+                          <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-4">
+                        <label for="validationCustomUsername" class="form-label">Card number</label>
+                        <div class="input-group has-validation">
+
+                          <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                          <span class="input-group-text" id="inputGroupPrepend"><i
+                              class="bi bi-credit-card-fill me-1"></i> <i
+                              class="bi bi-credit-card-2-front-fill"></i></span>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <label for="exampleFormControlInput1" class="form-label">Expiration</label>
+                            <div class="input-group mb-3">
+
+                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="MM">
+                              <input type="email" class="form-control" id="exampleFormControl" placeholder="YY">
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <label for="exampleFormControlInput1" class="form-label">CVV <i
+                                class="bi bi-question-circle-fill  ms-2"></i></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput7" placeholder="">
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between my-3">
+                  <button type="button" class="btn btn-info" onclick="gotostep2()">Previous</button>
+                  <button type="button" class="btn btn-primary" onclick="gotostep4()">Next</button>
+                </div>
+
+
+
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <h3>Summary</h3>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+                    <p class="fs-6 mb-1">Dharmendra Rathor</p>
+                    <p class="fs-6 mb-1">Plot no.F14 ground floor</p>
+
+                    <p class="fs-6 mb-1">shatabdi enclave, sector 49</p>
+                    <p class="fs-5 mb-1">Noida, UTTAR PRADESH 201301</p>
+
+
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col" colspan="2">Order Summary</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">Items(s) Subtotal:</td>
+                          <td>&#8377;253.00</td>
+
+                        </tr>
+                        <tr>
+                          <td scope="row">Shipping:</td>
+                          <td>&#8377;77.00</td>
+
+                        </tr>
+                        <tr>
+                          <td scope="row">Total:</td>
+                          <td>&#8377;330.00</td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">Grand Total:</th>
+                          <th colspan="2">&#8377;330.00</th>
+
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="card p-2">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <img src="../img/product.jpg" class="w-100 "
+                            title="books" />
+                        </div>
+                        <div class="col-sm-9">
+
+                          <h4>33 Pcs Miniatures Dollhouse Books 1:12 Scale Mini Books Dollhouse Decoration Accessories
+                            for
+                            Dollhouse Library Study Room Bedroom DIY Craft Gifts for Girls Boys</h4>
+
+                          <p class="my-1">In stock</small>
+                          <p class="fs-6 mb-1">Gift options not available. <a href="#"
+                              class="ms-2 text-decoration-none">more view</a></p>
+                          <p class="fs-5 mb-1">Retrun window closed on 6-dec-2022</p>
+                          <p class="fs-4 mb-1">&#8377; 253.00</p>
+                          <div class="d-flex my-1 flex-wrap">
+                            <div class="w-25 ">
+                              <select class="form-select me-2">
+                                <option selected disabled value="">1</option>
+                                <option>2</option>
+                                <option>3</option>
+                              </select>
+                            </div>
+
+                            <a href="#" class="ms-3 text-decoration-none">Delete</a>
+                            <a href="#" class="ms-3 text-decoration-none">Save to Later</a>
+                            <a href="#" class="ms-3 text-decoration-none">See more like this</a>
+                            <a href="#" class="ms-3 text-decoration-none">Share</a>
+
+                          </div>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="d-flex justify-content-between my-3">
+                  <button type="button" class="btn btn-info" onclick="gotostep3()">Previous</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
